@@ -18,8 +18,8 @@ if (webhookUrl != null) {
    const webhookclient = new WebhookClient(webhookid, webhooktoken);
    function fireHook(type, code, guild, author, time, alt) {
       let embed = new RichEmbed()
-         .setColor('#41FC9F')
-         .setTitle('Nitro Sniped')
+         .setColor('#ABE600')
+         .setTitle('**Sniped successfully!**')
          .addField('Time Taken', time, true)
          .addField('Type', type, true)
          .addField('Code', code, true)
